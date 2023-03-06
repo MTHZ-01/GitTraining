@@ -1,0 +1,77 @@
+###################################### GIT & GITHUB CRASH COURSE NOTES #####################################
+
+
+
+
+
+1) Why git ? :
+
+	You can keep track of changes
+	You can merge a team of developers to work on a single projegt without intterruptin each other for vertion control  ( working independently )
+	If the changes your team make are not desired, you can simply roll back to previous versions and continue development from there.
+	It'll be unessessery to communincate with a central server for data exchange or developing the softwere ( by using desributed server )
+	
+
+
+
+
+
+
+
+
+2) How to install git :
+	
+	For linux systems, you use the terminal to get and install the app by apt-get install, pacman -s  , etc...
+	For windows systems you simply download the setup wizard from a trusted source and you install it like a normal app.
+
+
+
+
+
+
+3) How to start git repository :
+	git --init
+
+
+
+4) How to control git version :
+
+	git --version
+	control git :
+	witch git
+
+
+
+
+5) How to config gmail in git :
+
+	git config --global user.email "mthz.ira@gmail.com"
+
+
+
+
+
+6) How to config name in git : 
+
+	git config --global user.name "Alucard"
+
+
+
+
+
+
+
+7) configs: 
+	git config --system
+	git config --global
+	git config
+
+
+	$ git config --global core.editor "VsCode"
+
+
+	git help
+	git help log
+
+
+	man git-log #### LINUX OS ONLY ####
